@@ -1,0 +1,142 @@
+.container-max {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url("/public/images/acceuil-f1.png");
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.animated-text {
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    color: white;
+}
+
+.animated-text span {
+    position: relative;
+}
+
+.animated-text span::before {
+    content: "Youtuber";
+    color: #b61500;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 105%;
+    background-color: #15151e;
+    border-left: 2px solid #b61500;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to {
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+
+    0%,
+    20% {
+        content: "My APP";
+    }
+
+    21%,
+    40% {
+        content: "Tracker";
+    }
+
+    41%,
+    60% {
+        content: "On Board";
+    }
+
+    61%,
+    80% {
+        content: "My APP";
+    }
+
+    81%,
+    100% {
+        content: "On Board";
+    }
+}
+
+@keyframes typing {
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
+}
+
+.button-circuit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #15151e;
+    border: 2px solid #b61500;
+    border-radius: 15px;
+    margin-top: 10vh;
+    width: 25vw;
+}
+
+.text-circuit {
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+.text-circuit:hover {
+    color: #b61500;
+    cursor: pointer;
+}

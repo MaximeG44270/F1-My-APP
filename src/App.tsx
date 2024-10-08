@@ -1,16 +1,17 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Circuit from './Pages/Circuit/Circuit';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="container-max">
-      <div className="image-container">
-        <div className="animated-text">
-          F1 <span></span>
-        </div>
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/circuit" element={<Circuit />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

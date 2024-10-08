@@ -1,0 +1,63 @@
+.body-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 15vh;
+    background-color: #15151e;
+}
+
+.picture-card {
+    background-image: url("/public/images/Circuit/Bahrein/bahrein-f1.jpg");
+    background-size: cover;
+    width: 15vw;
+    height: 10vh;
+}
+
+.text-picture-card {
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.6vw;
+    color: white;
+    text-align: center;
+}
+
+.text-2-picture-card {
+    font-family: 'poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-card {
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1vw;
+    color: white;
+}
+
+.footer-component {
+    display: flex;
+    flex-direction: row;
+}
+
+.date-card {
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+    font-size: 0.5vw;
+    color: white;
+}
+
+.border-footer {
+    width: 100%;
+    height: 5vh;
+    border-width: 0 1vh 1vh 0vw;
+    border-style: solid;
+    border-color: white;
+}
