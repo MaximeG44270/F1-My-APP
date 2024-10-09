@@ -1,0 +1,84 @@
+.body-card {
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    background-color: #15151e;
+}
+
+.picture-card-17 {
+    background-image: url("/public/images/Circuit/Baku/circuit-baku.png");
+    background-size: cover;
+    width: 100%;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.text-picture-card {
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.text-2-picture-card {
+    font-family: 'poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-top: 1vh;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-card {
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: white;
+    margin: 0;
+    margin-top: 1vh;
+}
+
+.footer-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date-card {
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.picto-card {
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: white;
+    margin-right: 1vw;
+}
+
+.border-footer {
+    position: absolute;
+    width: 21vw;
+    height: 8vh;
+    border-width: 0 0.2vh 0.2vh 0vw;
+    border-style: solid;
+    border-color: white;
+    margin-top: 24vh;
+    border-bottom-right-radius: 15px;
+}
