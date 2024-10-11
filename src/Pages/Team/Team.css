@@ -1,5 +1,5 @@
 html {
-    background-color: white;
+    background-image: url('/public/images/background.png');
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -41,6 +41,6 @@ html {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 60px;
     padding: 20px;
 }

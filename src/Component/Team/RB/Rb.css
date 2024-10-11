@@ -18,9 +18,14 @@
     flex-direction: column;
     padding: 0;
     margin: 0;
-    background-color: white;
     width: 40vw;
-    height: 44vh;
+    background-color: white;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+}
+
+.body-card-team:hover {
+    transform: scale(1.20);
 }
 
 .name-logo {
@@ -106,6 +111,10 @@
     flex-direction: row;
     justify-content: space-around;
     margin-top: 3vh;
+    background-image: url("/public/images/fond-voiture.png");
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .picture-pilote-1-yuki {
@@ -163,7 +172,7 @@
 .border-line-component-rb {
     position: absolute;
     width: 39.5vw;
-    height: 42vh;
+    height: 39vh;
     border-width: 0.3vh 0.3vh 0vh 0vw;
     border-style: solid;
     border-color: #6692ff;

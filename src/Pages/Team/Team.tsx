@@ -14,16 +14,17 @@ import TeamWilliams from "../../Component/Team/Williams/Williams";
 const Team: React.FC = () => {
     const navigate = useNavigate();
 
-    const handleNavigate = () => {
-        navigate('/circuit');
+    const handleNavigate = (path: string) => {
+        navigate(path);
     };
     return (
         <div className="bg">
             <div className="nav">
                 <ul className="nav-list">
-                    <li onClick={handleNavigate}>Circuit</li>
-                    <li>Teams</li>
-                    <li>Pilotes</li>
+                    <li onClick={() => handleNavigate('/circuit')}>Circuit</li>
+                    <li onClick={() => handleNavigate('/team')}>Équipes</li>
+                    <li onClick={() => handleNavigate('/pilote')}>Pilotes</li>
+                    <li onClick={() => handleNavigate('/onboard')}>On Board</li>
                 </ul>
             </div>
             <div className="team-component">
