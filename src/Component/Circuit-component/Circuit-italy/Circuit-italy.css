@@ -1,8 +1,29 @@
+@font-face {
+    font-family: 'Formula1-regular';
+    src: url('/src/Fonts/Formula1-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Formula1-bold';
+    src: url('/src/Fonts/Formula1-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Formula1-wide';
+    src: url('/src/Fonts/Formula1-Wide.ttf') format('truetype');
+}
+
 .body-card {
     display: flex;
     flex-direction: column;
     width: 21vw;
-    background-color: #15151e;
+    margin-bottom: 10vh;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.body-card:hover {
+    transform: scale(1.30);
 }
 
 .picture-card-16 {
@@ -16,25 +37,47 @@
     justify-content: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    position: relative;
+    overflow: hidden;
 }
 
-.text-picture-card {
-    font-family: 'poppins', sans-serif;
+.picture-card-16::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.text-picture-card,
+.text-2-picture-card {
+    font-family: 'Formula1-regular', sans-serif;
     font-weight: bold;
     font-size: 2rem;
     color: white;
     text-align: center;
     margin: 0;
+    z-index: 2;
+    transition: opacity 0.3s ease;
 }
 
 .text-2-picture-card {
-    font-family: 'poppins', sans-serif;
     font-weight: lighter;
     font-size: 1.5rem;
-    color: white;
-    text-align: center;
-    margin: 0;
     margin-top: 1vh;
+}
+
+.picture-card-16:hover::before {
+    opacity: 0;
+}
+
+.picture-card-16:hover .text-picture-card,
+.picture-card-16:hover .text-2-picture-card {
+    opacity: 0;
 }
 
 .text-card {
@@ -43,10 +86,10 @@
 }
 
 .title-card {
-    font-family: 'poppins', sans-serif;
+    font-family: 'Formula1-regular', sans-serif;
     font-weight: normal;
-    font-size: 0.9rem;
-    color: white;
+    font-size: 0.7rem;
+    color: black;
     margin: 0;
     margin-top: 1vh;
 }
@@ -58,17 +101,17 @@
 }
 
 .date-card {
-    font-family: 'poppins', sans-serif;
+    font-family: 'Formula1-bold', sans-serif;
     font-weight: normal;
     font-size: 0.9rem;
-    color: white;
+    color: black;
 }
 
 .picto-card {
-    font-family: 'poppins', sans-serif;
+    font-family: 'Formula1-wide', sans-serif;
     font-weight: normal;
     font-size: 0.9rem;
-    color: white;
+    color: black;
     margin-right: 1vw;
 }
 
@@ -78,7 +121,7 @@
     height: 8vh;
     border-width: 0 0.2vh 0.2vh 0vw;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     margin-top: 24vh;
     border-bottom-right-radius: 15px;
 }
