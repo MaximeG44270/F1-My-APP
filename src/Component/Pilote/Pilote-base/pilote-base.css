@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Formula1-regular';
+    src: url('/src/Fonts/Formula1-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Formula1-bold';
+    src: url('/src/Fonts/Formula1-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Formula1-wide';
+    src: url('/src/Fonts/Formula1-Wide.ttf') format('truetype');
+}
+
+.pilote-list {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    padding: 20px;
+}
+
+.body-card-pilote {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.container-color-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-color-team-pilote {
+    width: 0.5vw;
+    height: 5vh;
+    margin-right: 1vw;
+    margin-left: 1.5vw;
+}
+
+.container-pilote-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+
+.origin-pays {
+    width: 4vw;
+    margin-right: 1.5vw;
+    border-radius: 10px;
+}
+
+.first-name-pilote {
+    font-family: 'Formula1-regular', sans-serif;
+    font-size: 1rem;
+    color: #212121;
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+}
+
+.last-name-pilote {
+    font-family: 'Formula1-bold', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.container-info-pilote {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-team-pilote {
+    font-family: 'Formula1-regular', sans-serif;
+    font-size: 1rem;
+    color: #636363;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+}
+
+.container-number-picture {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 3vh;
+}
+
+.picture-pilote {
+    width: 12vw;
+    height: 12vw;
+    margin-left: 2vw;
+}
