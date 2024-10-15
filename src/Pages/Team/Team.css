@@ -36,11 +36,3 @@ html {
     color: #b61500;
     cursor: pointer;
 }
-
-.team-component {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 60px;
-    padding: 20px;
-}

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Formula1-regular';
+    src: url('/src/Fonts/Formula1-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Formula1-bold';
+    src: url('/src/Fonts/Formula1-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Formula1-wide';
+    src: url('/src/Fonts/Formula1-Wide.ttf') format('truetype');
+}
+
+.teams-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    padding: 20px;
+}
+
+.body-card-team {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 40vw;
+    background-color: white;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    }
+    
+.body-card-team:hover {
+    transform: scale(1.20);
+}
+
+.name-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+
+.color-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-team {
+    width: 0.5vw;
+    height: 5vh;
+    margin-right: 1vw;
+    margin-left: 1.5vw;
+}
+
+.name-team {
+    font-family: 'Formula1-bold', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.logo-team {
+    margin-right: 0.6vw;
+}
+
+.picture-logo-team {
+    width: 3vw;
+    height: 3vw;
+}
+
+.monoplace {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3vh;
+    background-image: url("/public/images/fond-voiture.png");
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.picture-pilote {
+    width: 3vw;
+    height: 3vw;
+    margin-left: 2vw;
+}
+
+.picture-monoplace {
+    height: 17vh;
+    width: 25vw;
+    margin-top: 4vh;
+}
+
+.border-line-component {
+    position: absolute;
+    width: 39.5vw;
+    height: 39vh;
+    border-width: 0.3vh 0.3vh 0vh 0vw;
+    border-style: solid;
+    margin-left: 0.5vw;
+    margin-top: 0vh;
+    border-top-right-radius: 15px;
+}
+
+.border-inter-ligne {
+    width: 37vw;
+    border-width: 0 0 0.2vh 0vw;
+    border-style: solid;
+    border-color: black;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+}

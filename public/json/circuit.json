@@ -1,0 +1,196 @@
+{
+    "circuits": [
+        {
+            "name": "AUSTRALIE",
+            "year": 2025,
+            "fullName": "FORMULA 1 - CIRCUIT ALBERT PARK",
+            "location": "AUSTRALIE GRAND PRIX 2025",
+            "date": "14 - 16 Mar",
+            "picture": "/images/Circuit/Australia/circuit-australia.jpg"
+        },
+        {
+            "name": "CHINA",
+            "year": 2025,
+            "fullName": "FORMULA 1 - CIRCUIT INTERNATIONAL DE SHANGHAI",
+            "location": "CHINA GRAND PRIX 2025",
+            "date": "21 - 23 Mar",
+            "picture": "/images/Circuit/China/circuit-china.jpg"
+        },
+        {
+            "name": "JAPAN",
+            "year": 2025,
+            "fullName": "FORMULA 1 - CIRCUIT DE SUZUKA",
+            "location": "JAPAN GRAND PRIX 2025",
+            "date": "04 - 06 Avr",
+            "picture": "/images/Circuit/Japan/circuit-japan.jpg"
+        },
+        {
+            "name": "Bahreïn",
+            "year": 2025,
+            "fullName": "FORMULA 1 - BAHRAIN INTERNATIONAL CIRCUIT",
+            "location": "BAHRAIN GRAND PRIX 2025",
+            "date": "11 Feb - 13 Avr",
+            "picture": "/images/Circuit/Bahrein/bahrein-f1.jpg"
+        },
+        {
+            "name": "ARABIE SAOUDITE",
+            "year": 2025,
+            "fullName": "FORMULA 1 - JEDDAH CORNICHE CIRCUIT",
+            "location": "ARABIE SAOUDITE GRAND PRIX 2025",
+            "date": "18 - 20 Avr",
+            "picture": "/images/Circuit/Arabie-saoudite/circuit-arabie-saoudite.png"
+        },
+        {
+            "name": "MIAMI",
+            "year": 2025,
+            "fullName": "AUTODROME INTERNATIONAL DE MIAMI",
+            "location": "MIAMI GRAND PRIX 2025",
+            "date": "02 - 04 Mai",
+            "picture": "/images/Circuit/Miami/circuit-miami.jpg"
+        },
+        {
+            "name": "EMILIE-ROMAGNE",
+            "year": 2025,
+            "fullName": "AUTODROME INTERNATIONAL ENZO ET DINO FERRARI",
+            "location": "ITALY GRAND PRIX 2025",
+            "date": "16 - 18 Mai",
+            "picture": "/images/Circuit/Imola/Circuit-imola.jpg"
+        },
+        {
+            "name": "MONACO",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT DE MONACO",
+            "location": "MONACO GRAND PRIX 2025",
+            "date": "23 - 25 Mai",
+            "picture": "/images/Circuit/monaco/circuit-monaco.png"
+        },
+        {
+            "name": "SPAIN",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT DE BARCELONE-CATALOGNE",
+            "location": "SPAIN GRAND PRIX 2025",
+            "date": "30 - 01 Jun",
+            "picture": "/images/Circuit/spain/circuit-sapin.jpg"
+        },
+        {
+            "name": "CANADA",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT GILLES-VILLENEUVE",
+            "location": "CANADA GRAND PRIX 2025",
+            "date": "13 - 15 Jun",
+            "picture": "/images/Circuit/canada/circuit-canada.jpg"
+        },
+        {
+            "name": "AUTRICHE",
+            "year": 2025,
+            "fullName": "FORMULE 1 - LE RED BULL RACING",
+            "location": "AUTRICHE GRAND PRIX 2025",
+            "date": "27 - 29 Jun",
+            "picture": "/images/Circuit/Austria/austria.png"
+        },
+        {
+            "name": "GRANDE BRETAGNE",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT DE SILVERSTONE",
+            "location": "GRANDE BRETAGNE GRAND PRIX 2025",
+            "date": "04 - 06 Jul",
+            "picture": "/images/Circuit/Great-britain/circuit-GB.jpg"
+        },
+        {
+            "name": "BELGIUM",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT DE SPA-FRANCORCHAMPS",
+            "location": "BELGIQUE GRAND PRIX 2025",
+            "date": "25 - 27 Jul",
+            "picture": "/images/Circuit/belgium/circuit-spa.jpg"
+        },
+        {
+            "name": "HONGRIE",
+            "year": 2025,
+            "fullName": "FORMULE 1 - HUNGARORING",
+            "location": "HONGRIE GRAND PRIX 2025",
+            "date": "01 - 03 Aou",
+            "picture": "/images/Circuit/hungary/circuit-hungary.jpg"
+        },
+        {
+            "name": "PAYS-BAS",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT DE ZANDVOORT",
+            "location": "PAYS-BAS GRAND PRIX 2025",
+            "date": "29 - 31 Aou",
+            "picture": "/images/Circuit/netherlands/netherlands.jpg"
+        },
+        {
+            "name": "ITALY",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT DE MONZA",
+            "location": "ITALY GRAND PRIX 2025",
+            "date": "05 - 07 Sep",
+            "picture": "/images/Circuit/italy/Circuit-italie.jpg"
+        },
+        {
+            "name": "AZERBAïDJAN",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT URBAIN DE BAKOU",
+            "location": "AZERBAïDJAN GRAND PRIX 2025",
+            "date": "19 - 21 Sep",
+            "picture": "/images/Circuit/Baku/circuit-baku.png"
+        },
+        {
+            "name": "SINGAPOUR",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT URBAIN DE MARINA BAY",
+            "location": "SINGAPOUR GRAND PRIX 2025",
+            "date": "03 - 05 Oct",
+            "picture": "/images/Circuit/singapour/circuit-singapour.png"
+        },
+        {
+            "name": "AUSTIN",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT OF THE AMERICAS",
+            "location": "Austin GRAND PRIX 2025",
+            "date": "17 - 19 Oct",
+            "picture": "/images/Circuit/Austin/circuit-austin.jpg"
+        },
+        {
+            "name": "MEXICO",
+            "year": 2025,
+            "fullName": "FORMULE 1 - AUTODROMO HERMANOS RODRIGUEZ",
+            "location": "Mexico GRAND PRIX 2025",
+            "date": "24 - 26 Oct",
+            "picture": "/images/Circuit/Mexico/circuit-mexico.jpg"
+        },
+        {
+            "name": "BRAZIL",
+            "year": 2025,
+            "fullName": "FORMULE 1 - AUTODROME JOSE CARLOS PACE",
+            "location": "Brazil GRAND PRIX 2025",
+            "date": "07 - 09 Nov",
+            "picture": "/images/Circuit/Brazil/circuit-brazil.jpg"
+        },
+        {
+            "name": "LAS VEGAS",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT DU STRIP DE LAS VEGAS",
+            "location": "Las Vegas GRAND PRIX 2025",
+            "date": "20 - 22 Nov",
+            "picture": "/images/Circuit/Las-Vegas/circuit-las-vegas.jpg"
+        },
+        {
+            "name": "Qatar",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT INTERNATIONAL DE LUSAIL",
+            "location": "Qatar GRAND PRIX 2025",
+            "date": "28 - 30 Nov",
+            "picture": "/images/Circuit/Qatar/circuit-qatar.png"
+        },
+        {
+            "name": "ABU DHABI",
+            "year": 2025,
+            "fullName": "FORMULE 1 - CIRCUIT YAS MARINA",
+            "location": "Abu Dahbi GRAND PRIX 2025",
+            "date": "05 - 07 Dec",
+            "picture": "/images/Circuit/Abu-dhabi/circuit-abu-dhabi.png"
+        }
+    ]
+  }

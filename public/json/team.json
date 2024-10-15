@@ -1,0 +1,148 @@
+{
+    "teams": [
+        {
+            "name": "ALPINE",
+            "teamColor": "#0093cc",
+            "logo": "/images/Team/Alpine/Logo/alpine-logo.png",
+            "drivers": [
+                {
+                    "firstName": "Pierre",
+                    "lastName": "Gasly",
+                    "image": "/images/Team/Alpine/image-pilote/piegas01.png"
+                },
+                {
+                    "firstName": "Esteban",
+                    "lastName": "Ocon",
+                    "image": "/images/Team/Alpine/image-pilote/estoco01.png"
+                }
+            ],
+            "monoplace": "/images/Team/Alpine/monoplace/alpine.png"
+        },
+        {
+            "name": "ASTON MARTIN",
+            "teamColor": "#229971",
+            "logo": "/images/Team/Aston-Martin/Logo/aston-martin-logo.png",
+            "drivers": [
+                {
+                    "firstName": "Fernando",
+                    "lastName": "Alonso",
+                    "image": "/images/Team/Aston-Martin/image-pilote/feralo01.png"
+                },
+                {
+                    "firstName": "Lance",
+                    "lastName": "Stroll",
+                    "image": "/images/Team/Aston-Martin/image-pilote/lanstr01.png"
+                }
+            ],
+            "monoplace": "/images/Team/Aston-Martin/monoplace/aston-martin.png"
+        },
+        {
+            "name": "FERRARI",
+            "teamColor": "#e80020",
+            "logo": "/images/Team/Ferrari/Logo/ferrari-logo.png",
+            "drivers": [
+                {
+                    "firstName": "Charles",
+                    "lastName": "Leclerc",
+                    "image": "/images/Team/Ferrari/image-pilote/chalec01.png"
+                },
+                {
+                    "firstName": "Carlos",
+                    "lastName": "Sainz",
+                    "image": "/images/Team/Ferrari/image-pilote/carsai01.png"
+                }
+            ],
+            "monoplace": "/images/Team/Ferrari/monoplace/ferrari.png"
+        },
+        {
+            "name": "MCLAREN",
+            "teamColor": "#ff8000",
+            "logo": "/images/Team/McLaren/Logo/mclaren-logo.png",
+            "drivers": [
+                {
+                    "firstName": "Lando",
+                    "lastName": "Norris",
+                    "image": "/images/Team/McLaren/image-pilote/lannor01.png"
+                },
+                {
+                    "firstName": "Oscar",
+                    "lastName": "Piastri",
+                    "image": "/images/Team/McLaren/image-pilote/oscpia01.png"
+                }
+            ],
+            "monoplace": "/images/Team/McLaren/monoplace/mclaren.png"
+        },
+        {
+            "name": "MERCEDES",
+            "teamColor": "#27f4d2",
+            "logo": "/images/Team/Mercedes/Logo/mercedes-logo.png",
+            "drivers": [
+                {
+                    "firstName": "Lewis",
+                    "lastName": "Hamilton",
+                    "image": "/images/Team/Mercedes/image-pilote/lewham01.png"
+                },
+                {
+                    "firstName": "George",
+                    "lastName": "Russell",
+                    "image": "/images/Team/Mercedes/image-pilote/georus01.png"
+                }
+            ],
+            "monoplace": "/images/Team/Mercedes/monoplace/mercedes.png"
+        },
+        {
+            "name": "RB",
+            "teamColor": "#6692ff",
+            "logo": "/images/Team/RB/Logo/rb-logo.png",
+            "drivers": [
+                {
+                    "firstName": "Yuki",
+                    "lastName": "Tsunoda",
+                    "image": "/images/Team/RB/image-pilote/yuktsu01.png"
+                },
+                {
+                    "firstName": "Liam",
+                    "lastName": "Lawson",
+                    "image": "/images/Team/RB/image-pilote/lialaw01.png"
+                }
+            ],
+            "monoplace": "/images/Team/RB/monoplace/rb.png"
+        },
+        {
+            "name": "RED BULL RACING",
+            "teamColor": "#3671c6",
+            "logo": "/images/Team/Red-Bull-Racing/Logo/red-bull-racing-logo.png",
+            "drivers": [
+                {
+                    "firstName": "Max",
+                    "lastName": "Verstappen",
+                    "image": "/images/Team/Red-Bull-Racing/image-pilote/maxver01.png"
+                },
+                {
+                    "firstName": "Sergio",
+                    "lastName": "Perez",
+                    "image": "/images/Team/Red-Bull-Racing/image-pilote/serper01.png"
+                }
+            ],
+            "monoplace": "/images/Team/Red-Bull-Racing/monoplace/red-bull-racing.png"
+        },
+        {
+            "name": "WILLIAMS",
+            "teamColor": "#64c4ff",
+            "logo": "/images/Team/Williams/Logo/williams-logo.png",
+            "drivers": [
+                {
+                    "firstName": "Alexander",
+                    "lastName": "Albon",
+                    "image": "/images/Team/Williams/image-pilote/alealb01.png"
+                },
+                {
+                    "firstName": "Franco",
+                    "lastName": "Colapinto",
+                    "image": "/images/Team/Williams/image-pilote/fracol01.png"
+                }
+            ],
+            "monoplace": "/images/Team/Williams/monoplace/williams.png"
+        }
+    ]
+}
