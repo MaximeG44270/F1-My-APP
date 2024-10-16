@@ -13,7 +13,7 @@
         "firstName": "Sergio",
         "lastName": "Perez",
         "teamColor": "#3671C6",
-        "countryOfOrigin": "Mexico",
+        "countryOfOrigin": "/images/Pilote/Perez/Mexico.jpg",
         "teamName": "Red Bull Racing",
         "number": "11",
         "profilPicture": "/images/Pilote/Perez/serper01.jpg"
@@ -31,7 +31,7 @@
         "firstName": "George",
         "lastName": "Russell",
         "teamColor": "#6CD3BF",
-        "countryOfOrigin": "United Kingdom",
+        "countryOfOrigin": "/images/Pilote/Russell/United-Kingdom.jpg",
         "teamName": "Mercedes",
         "number": "63",
         "profilPicture": "/images/Pilote/Russell/georus01.jpg"
@@ -40,7 +40,7 @@
         "firstName": "Charles",
         "lastName": "Leclerc",
         "teamColor": "#F91536",
-        "countryOfOrigin": "Monaco",
+        "countryOfOrigin": "/images/Pilote/Leclerc/Monaco.jpg",
         "teamName": "Ferrari",
         "number": "16",
         "profilPicture": "/images/Pilote/Leclerc/picture.jpg"
@@ -49,7 +49,7 @@
         "firstName": "Carlos",
         "lastName": "Sainz",
         "teamColor": "#F91536",
-        "countryOfOrigin": "Spain",
+        "countryOfOrigin": "/images/Pilote/Sainz/Spain.jpg",
         "teamName": "Ferrari",
         "number": "55",
         "profilPicture": "/images/Pilote/Sainz/carsai01.jpg"
@@ -58,7 +58,7 @@
         "firstName": "Lando",
         "lastName": "Norris",
         "teamColor": "#FF8700",
-        "countryOfOrigin": "United Kingdom",
+        "countryOfOrigin": "/images/Pilote/Norris/United-Kingdom.jpg",
         "teamName": "McLaren",
         "number": "4",
         "profilPicture": "/images/Pilote/Norris/picture.jpg"
@@ -67,7 +67,7 @@
         "firstName": "Oscar",
         "lastName": "Piastri",
         "teamColor": "#FF8700",
-        "countryOfOrigin": "Australia",
+        "countryOfOrigin": "/images/Pilote/Piastri/Australia.jpg",
         "teamName": "McLaren",
         "number": "81",
         "profilPicture": "/images/Pilote/Piastri/oscpia01.jpg"
@@ -76,7 +76,7 @@
         "firstName": "Fernando",
         "lastName": "Alonso",
         "teamColor": "#358C75",
-        "countryOfOrigin": "Spain",
+        "countryOfOrigin": "/images/Pilote/Alonso/Spain.jpg",
         "teamName": "Aston Martin",
         "number": "14",
         "profilPicture": "/images/Pilote/Alonso/feralo01.jpg"
@@ -85,7 +85,7 @@
         "firstName": "Lance",
         "lastName": "Stroll",
         "teamColor": "#358C75",
-        "countryOfOrigin": "Canada",
+        "countryOfOrigin": "/images/Pilote/Stroll/Canada.jpg",
         "teamName": "Aston Martin",
         "number": "18",
         "profilPicture": "/images/Pilote/Stroll/lanstr01.jpg"
@@ -94,16 +94,16 @@
         "firstName": "Esteban",
         "lastName": "Ocon",
         "teamColor": "#2293D1",
-        "countryOfOrigin": "France",
+        "countryOfOrigin": "/images/Pilote/Ocon/France.jpg",
         "teamName": "Alpine",
         "number": "31",
-        "profilPicture": "/images/Pilote/Ocon/estoco01.jpg"
+        "profilPicture": "/images/Pilote/Ocon/estoco01.png"
       },
       {
         "firstName": "Pierre",
         "lastName": "Gasly",
         "teamColor": "#2293D1",
-        "countryOfOrigin": "France",
+        "countryOfOrigin": "/images/Pilote/Gasly/France.jpg",
         "teamName": "Alpine",
         "number": "10",
         "profilPicture": "/images/Pilote/Gasly/piegas01.jpg"
@@ -112,34 +112,34 @@
         "firstName": "Valtteri",
         "lastName": "Bottas",
         "teamColor": "#900000",
-        "countryOfOrigin": "Finland",
+        "countryOfOrigin": "/images/Pilote/Bottas/Finland.jpg",
         "teamName": "Alfa Romeo",
         "number": "77",
-        "profilPicture": "/images/Pilote/Bottas/valbot01.jpg"
+        "profilPicture": "/images/Pilote/Bottas/valbot01.png"
       },
       {
         "firstName": "Zhou",
         "lastName": "Guanyu",
         "teamColor": "#900000",
-        "countryOfOrigin": "China",
+        "countryOfOrigin": "/images/Pilote/Zhou/China.jpg",
         "teamName": "Alfa Romeo",
         "number": "24",
-        "profilPicture": "/images/Pilote/Zhou/guazho01.jpg"
+        "profilPicture": "/images/Pilote/Zhou/guazho01.png"
       },
       {
         "firstName": "Kevin",
         "lastName": "Magnussen",
         "teamColor": "#B6BABD",
-        "countryOfOrigin": "Denmark",
+        "countryOfOrigin": "/images/Pilote/Magnussen/Denmark.jpg",
         "teamName": "Haas",
         "number": "20",
-        "profilPicture": "/images/Pilote/Magnussen/kevmag01.jpg"
+        "profilPicture": "/images/Pilote/Magnussen/kevmag01.png"
       },
       {
         "firstName": "Nico",
         "lastName": "Hülkenberg",
         "teamColor": "#B6BABD",
-        "countryOfOrigin": "Germany",
+        "countryOfOrigin": "/images/Pilote/Hulkenberg/Germany.jpg",
         "teamName": "Haas",
         "number": "27",
         "profilPicture": "/images/Pilote/Hulkenberg/nichul01.jpg"
@@ -148,7 +148,7 @@
         "firstName": "Alexander",
         "lastName": "Albon",
         "teamColor": "#37BEDD",
-        "countryOfOrigin": "Thailand",
+        "countryOfOrigin": "/images/Pilote/Albon/Thailand.jpg",
         "teamName": "Williams",
         "number": "23",
         "profilPicture": "/images/Pilote/Albon/alealb01.jpg"
@@ -157,16 +157,16 @@
         "firstName": "Franco",
         "lastName": "Colapinto",
         "teamColor": "#37BEDD",
-        "countryOfOrigin": "Argentina",
+        "countryOfOrigin": "/images/Pilote/Colapinto/Argentina.jpg",
         "teamName": "Williams",
         "number": "43",
-        "profilPicture": "/images/Pilote/Colapinto/fracol01.jpg"
+        "profilPicture": "/images/Pilote/Colapinto/fracol01.png"
       },
       {
         "firstName": "Yuki",
         "lastName": "Tsunoda",
         "teamColor": "#5E8FAA",
-        "countryOfOrigin": "Japan",
+        "countryOfOrigin": "/images/Pilote/Tsunoda/Japan.jpg",
         "teamName": "AlphaTauri",
         "number": "22",
         "profilPicture": "/images/Pilote/Tsunoda/yuktsu01.jpg"
@@ -175,7 +175,7 @@
         "firstName": "Daniel",
         "lastName": "Ricciardo",
         "teamColor": "#5E8FAA",
-        "countryOfOrigin": "Australia",
+        "countryOfOrigin": "/images/Pilote/Ricciardo/Australia.jpg",
         "teamName": "AlphaTauri",
         "number": "3",
         "profilPicture": "/images/Pilote/Ricciardo/danric01.jpg"

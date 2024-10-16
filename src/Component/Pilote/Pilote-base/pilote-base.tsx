@@ -37,14 +37,15 @@ const PiloteBase: React.FC = () => {
             </div>
             <img className="origin-pays" src={driver.countryOfOrigin} />
           </div>
-          <div className="border-inter-ligne"></div>
+          <div className="border-inter-ligne-pilote"></div>
           <div className="container-info-pilote">
             <div className="name-team-pilote">{driver.teamName}</div>
             <div className="container-number-picture">
-              <div className="number-pilote">{driver.number}</div>
+              <div className="number-pilote" style={{ color: driver.teamColor }}>{driver.number}</div>
               <img className="picture-pilote" src={driver.profilPicture} alt={`${driver.firstName} ${driver.lastName}`} />
             </div>
           </div>
+          <div className="border-line-component-pilote" style={{ borderColor: driver.teamColor }}></div>
         </div>
       ))}
     </div>

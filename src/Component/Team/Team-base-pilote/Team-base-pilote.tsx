@@ -33,7 +33,7 @@ const TeamBasePilote: React.FC<{ team: Team }> = ({ team }) => {
                             <div className="last-name">{driver.lastName}</div>
                         </div>
                         <img
-                            className={`picture-pilote`}
+                            className={`picture-pilote-team`}
                             src={driver.image}
                             alt={`pilote-${driverIndex + 1}-${team.name.toLowerCase().replace(' ', '-')}`}
                         />
